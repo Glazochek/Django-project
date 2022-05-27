@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3335b7c-b608-42c6-ba37-e6d25304eb26" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/category_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/category_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/product_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/product_read.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/product_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/user_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/user_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/templatetags/my_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/adminapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/basketapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/basket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/includes/inc_basket_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/basketapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/geekshop/vk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/json/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/json/goods.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/management/commands/fill_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/management/commands/update_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/includes/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/includes/inc_categories_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/includes/inc_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/products_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/static/css/order-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/static/css/style-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/static/css/style-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/static/js/orders_scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/static/js/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gs-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gs-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/static/css/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="26uzDgAq2AGWtLqSMwszDRo6fVF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pythonProject2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Django\gs-project\geekshop" />
+      <recent name="C:\Django\gs-project\geekshop\adminapp\templates\adminapp" />
+      <recent name="C:\Django\gs-project\geekshop\adminapp\templates\adminapp\includes" />
+      <recent name="C:\Django\gs-project\geekshop\basketapp\templates\basketapp\includes" />
+      <recent name="C:\Django\gs-project\geekshop\authapp\templates\authapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="gs-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Django\gs-project\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekshop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekshop/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gs-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekshop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekshop/q.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.q" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3335b7c-b608-42c6-ba37-e6d25304eb26" name="Changes" comment="" />
+      <created>1648288140846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648288140846</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/generic/detail.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/geekshop/ordersapp/views.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/geekshop/ordersapp/views.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

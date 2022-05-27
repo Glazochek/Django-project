@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="geekshop.geekshop.urls.mainapp" />
+          <option value="geekshop.mainapp.templates.mainapp.urls.mainapp" />
+          <option value="geekshop.mainapp.urls.mainapp" />
+          <option value="geekshop.mainapp.views.mainapp" />
+          <option value="geekshop.mainapp.management.commands.fill_db.*" />
+          <option value="geekshop.authapp.views.authapp" />
+          <option value="geekshop.authapp.forms.User" />
+          <option value="authapp.forms" />
+          <option value="tuple.items" />
+          <option value="geekshop.mainapp.models.Product.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
